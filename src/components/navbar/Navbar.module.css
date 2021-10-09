@@ -1,0 +1,20 @@
+.nav{
+    background-color: red;
+    padding: 10px;
+}
+.nav__item{
+    margin-bottom: 10px;
+
+}
+.navlink{
+    font-size: 22px;
+    color: #ffff;
+    text-decoration: none;
+}
+
+
+.navlink.active{
+    color: darkblue;
+    font-weight: bold;
+    background-color: #bebebe;;
+}

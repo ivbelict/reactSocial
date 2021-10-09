@@ -1,0 +1,95 @@
+.usersDiv{
+    background-color: #e6e3e3;
+}
+
+
+.users{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+    width: 70%;
+}
+
+
+
+.userIcon{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.usersAva{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.follow{
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 0;
+    cursor: pointer;
+}
+.unfollow{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 0;
+    cursor: pointer;
+
+}
+
+.usersInfo{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border: 1px solid cadetblue;
+    border-radius: 10px;
+    background-color: white;
+}
+.usersInfo div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 18px;
+    color: navy;
+    font-weight: 600;
+}
+
+.getUsers{
+    width: 50px;
+    height: 25px;
+}
+
+.pageNumbers{
+    padding: 20px 100px;
+    text-align: center;
+    width: 70%;
+}
+
+.currentPage{
+    font-weight: bold;
+    background-color: gray;
+}
+
+#pageNumber{
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.userName{
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.userName:hover{
+    color: black;
+}

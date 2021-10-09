@@ -1,0 +1,17 @@
+.header{
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    grid-area: h;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+.auth a{
+
+    text-decoration: none;
+}
+
+.login{
+    font-size: 24px;
+    font-weight: bold;
+}

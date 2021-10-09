@@ -1,0 +1,19 @@
+.post{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+
+.post__img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.post__text{
+    margin-left: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}

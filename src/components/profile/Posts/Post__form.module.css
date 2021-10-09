@@ -1,0 +1,12 @@
+.form{
+    padding: 15px;
+}
+
+.form__textarea{
+    display: block;
+}
+
+.form__button{
+    margin-top: 15px;
+}
+
